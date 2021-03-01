@@ -1,60 +1,232 @@
-.light-mode {
-  background-color: white;
+/* sidebar */
+.sidebar {
+  color: rgba(255, 255, 255, 0.6) !important;
+  background-color: #202020 !important;
+}
+
+.sidebar a {
+  color: #fff !important;
+}
+
+.sidebar .circle-button {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.sidebar .slider {
+  background-color: #ccc !important;
+}
+
+.sidebar .slider:before {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+input:checked + .slider {
+  background-color: #2196f3 !important;
+}
+
+.sidebar-nav-item.active,
+a.sidebar-nav-item:hover,
+.sidebar-nav-item:focus {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* light mode */
+.light-theme {
+  background-color: #fffafa;
   color: black;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
+.light-theme a {
+  color: #268bd2;
 }
 
-/*
+.light-theme h1,
+.light-theme h2,
+.light-theme h3,
+.light-theme h4,
+.light-theme h5,
+.light-theme h6 {
+  color: #313131;
+}
 
--- lanyon
-slider-bg-off-color
-slider-bg-on-color
-slider-color
-header-color
-masthead-title-color
-masthead-subtitle-color
-sidebar-color
-sidebar-bg-color
-sidebar-a-color
-sidebar-nav-item-bg-color
-sidebar-toggle-color
-sidebar-toggle-bg-color
-sidebar-checkbox-checked-color
-sidebar-checkbox-checked-bg-color
-post-title-color
-post-metadata-color
-related-posts-small-color
-related-posts-hover-color
-related-posts-small-hover-color
-pagination-color
-linked-pagination-hover-color
+.light-theme strong {
+  color: #303030;
+}
 
--- poole
-body-color
-bg-color
-a-color
-a-strong-color
-header-color
-strong-color
-abbr-color
-code-color
-code-bg-color
-pre-bg-color
-blockquote-color
-odd-table-item-bg-color
-message-color
-message-bg-color
-masthead-title-color
-masthead-subtitle-color
-post-title-color
-post-metadata-color
-related-posts-small-color
-related-posts-hover-color
-related-posts-small-hover-color
+.light-theme abbr {
+  color: #555;
+}
 
-all of syntax
- */
+.light-theme code {
+  color: #bf616a;
+  background-color: #f9f9f9;
+}
+
+.light-theme pre {
+  background-color: #f9f9f9;
+}
+
+.light-theme pre {
+  color: #7a7a7a;
+}
+
+.light-theme tbody tr:nth-child(odd) td,
+.light-theme tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+.light-theme .message {
+  color: #717171;
+  background-color: #f9f9f9;
+}
+
+.light-theme .masthead-title {
+  color: #505050;
+}
+
+.light-theme .masthead-title a {
+  color: #505050;
+}
+
+.light-theme .masthead-title small {
+  color: #c0c0c0;
+}
+
+.light-theme .page-title,
+.light-theme .post-title,
+.light-theme .post-title a {
+  color: #303030;
+}
+
+.light-theme .post-date {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.light-theme .related-posts li small {
+  color: #999;
+}
+
+.light-theme .related-posts li a:hover {
+  color: #268bd2;
+}
+
+.light-theme .pagination {
+  color: #ccc;
+}
+
+.light-theme a.pagination-item:hover {
+  background-color: #f5f5f5;
+}
+
+.light-theme .sidebar-toggle {
+  color: #505050;
+  background-color: #fffafa;
+}
+
+.light-theme .sidebar-toggle:active,
+.light-theme #sidebar-checkbox:focus ~ .sidebar-toggle,
+.light-theme #sidebar-checkbox:checked ~ .sidebar-toggle {
+  color: #fff;
+  background-color: #555;
+}
+
+/* dark mode */
+.dark-theme {
+  background-color: #121212;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-theme a {
+  color: #0077cc;
+}
+
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3,
+.dark-theme h4,
+.dark-theme h5,
+.dark-theme h6 {
+  color: #e4e4e4;
+}
+
+.dark-theme strong {
+  color: #e5e5e5;
+}
+
+.dark-theme abbr {
+  color: #eaeaea;
+}
+
+.dark-theme code {
+  color: #a9b1d6;
+  background-color: #1a1b26;
+}
+
+.dark-theme pre {
+  background-color: #1a1b26;
+  color: #858585;
+}
+
+.dark-theme tbody tr:nth-child(odd) td,
+.dark-theme tbody tr:nth-child(odd) th {
+  background-color: #1a1b26;
+}
+
+.dark-theme .message {
+  color: #717171;
+  background-color: #1a1b26;
+}
+
+.dark-theme .masthead-title {
+  color: #f9f3f3;
+}
+
+.dark-theme .masthead-title a {
+  color: #f9f3f3;
+}
+
+.dark-theme .masthead-title small {
+  color: #a5a5a5;
+}
+
+.dark-theme .page-title,
+.dark-theme .post-title,
+.dark-theme .post-title a {
+  color: #e2dcdc;
+}
+
+.dark-theme .post-date {
+  color: #727272;
+}
+
+.dark-theme .related-posts li small {
+  color: #666;
+}
+
+.dark-theme .related-posts li a:hover {
+  color: #0077cc;
+}
+
+.dark-theme .pagination {
+  color: #ccc;
+}
+
+/* TODO (just the one immediately below) */
+.dark-theme a.pagination-item:hover {
+  background-color: #f5f5f5;
+}
+
+.dark-theme .sidebar-toggle {
+  background-color: #121212;
+}
+
+.dark-theme .sidebar-toggle:active,
+.dark-theme #sidebar-checkbox:focus ~ .sidebar-toggle,
+.dark-theme #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #444;
+}
+
+/* darken images in dark theme */
+.dark-theme img {
+  filter: brightness(0.8) contrast(1.2);
+}

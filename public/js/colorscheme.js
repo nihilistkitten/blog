@@ -1,6 +1,6 @@
-const DARKMODE_COOKIE_NAME = "dark-mode";
-const DARKMODE_CLASS = "dark-mode";
-const LIGHTMODE_CLASS = "light-mode";
+const DARKMODE_COOKIE_NAME = "dark-theme";
+const DARKMODE_CLASS = "dark-theme";
+const LIGHTMODE_CLASS = "light-theme";
 
 window.onload = () => {
   var darkmode = check_cached_colorscheme_preference();

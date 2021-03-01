@@ -2,7 +2,6 @@
 ---
 
 .circle-button {
-  background-color: white;
   border: none;
   padding: 17px;
   display: inline-block;
@@ -59,7 +58,6 @@ a.button {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
   -webkit-transition: 0.1s;
   transition: 0.1s;
   border-radius: 34px;
@@ -72,7 +70,6 @@ a.button {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
   background-image: url({{"/public/images/sun.svg"|absolute_url}});
   background-size: 70%;
   background-repeat: no-repeat;
@@ -80,10 +77,6 @@ a.button {
   -webkit-transition: 0.1s;
   transition: 0.1s;
   border-radius: 50%;
-}
-
-input:checked + .slider {
-  background-color: #2196f3;
 }
 
 input:focus + .slider {

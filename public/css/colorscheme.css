@@ -80,6 +80,10 @@ a.sidebar-nav-item:hover,
   background-color: #f9f9f9;
 }
 
+.light-theme .masthead {
+  border-bottom-color: #eee;
+}
+
 .light-theme .masthead-title {
   color: #505050;
 }
@@ -175,6 +179,10 @@ a.sidebar-nav-item:hover,
 .dark-theme .message {
   color: #717171;
   background-color: #1a1b26;
+}
+
+.dark-theme .masthead {
+  border-bottom-color: #222;
 }
 
 .dark-theme .masthead-title {

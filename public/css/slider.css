@@ -1,11 +1,39 @@
-.light-mode {
+---
+---
+
+.circle-button {
   background-color: white;
-  color: black;
+  border: none;
+  padding: 17px;
+  display: inline-block;
+  border-radius: 100%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
+a.button {
+  -webkit-appearance: none;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+
+#github-button {
+  margin-left: 3px;
+  background-image: url({{"/public/images/github-mark.png"|absolute_url}});
+}
+
+#mail-button {
+  margin-left: 3px;
+  background-image: url({{"/public/images/mail.svg"|absolute_url}});
+}
+
+#linkedin-button {
+  margin-left: 3px;
+  background-image: url({{"/public/images/linkedin.svg"|absolute_url}});
 }
 
 /* The switch - the box around the slider */
@@ -45,6 +73,10 @@
   left: 4px;
   bottom: 4px;
   background-color: white;
+  background-image: url({{"/public/images/sun.svg"|absolute_url}});
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
   -webkit-transition: 0.1s;
   transition: 0.1s;
   border-radius: 50%;
@@ -62,4 +94,5 @@ input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
+  background-image: url({{"/public/images/moon.svg"|absolute_url}});
 }

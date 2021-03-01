@@ -1,0 +1,60 @@
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/*
+
+-- lanyon
+slider-bg-off-color
+slider-bg-on-color
+slider-color
+header-color
+masthead-title-color
+masthead-subtitle-color
+sidebar-color
+sidebar-bg-color
+sidebar-a-color
+sidebar-nav-item-bg-color
+sidebar-toggle-color
+sidebar-toggle-bg-color
+sidebar-checkbox-checked-color
+sidebar-checkbox-checked-bg-color
+post-title-color
+post-metadata-color
+related-posts-small-color
+related-posts-hover-color
+related-posts-small-hover-color
+pagination-color
+linked-pagination-hover-color
+
+-- poole
+body-color
+bg-color
+a-color
+a-strong-color
+header-color
+strong-color
+abbr-color
+code-color
+code-bg-color
+pre-bg-color
+blockquote-color
+odd-table-item-bg-color
+message-color
+message-bg-color
+masthead-title-color
+masthead-subtitle-color
+post-title-color
+post-metadata-color
+related-posts-small-color
+related-posts-hover-color
+related-posts-small-hover-color
+
+all of syntax
+ */

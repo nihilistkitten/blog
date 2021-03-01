@@ -19,9 +19,10 @@
   <link rel="stylesheet" href="{{ '/public/css/poole.css' | absolute_url }}" />
   <link rel="stylesheet" href="{{ '/public/css/syntax.css' | absolute_url }}" />
   <link rel="stylesheet" href="{{ '/public/css/lanyon.css' | absolute_url }}" />
+  <link rel="stylesheet" href="{{ '/public/css/slider.css' | absolute_url }}" />
   <link
     rel="stylesheet"
-    href="{{ '/public/css/darkmode.css' | absolute_url }}"
+    href="{{ '/public/css/colorscheme.css' | absolute_url }}"
   />
   <link
     rel="stylesheet"
@@ -42,30 +43,5 @@
     href="{{ '/atom.xml' | absolute_url }}"
   />
 
-  <script src="{{ '/public/js/darkmode.js' | absolute_url }}"></script>
-  {% if site.google_analytics_id %}
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i["GoogleAnalyticsObject"] = r;
-      (i[r] =
-        i[r] ||
-        function () {
-          (i[r].q = i[r].q || []).push(arguments);
-        }),
-        (i[r].l = 1 * new Date());
-      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m);
-    })(
-      window,
-      document,
-      "script",
-      "//www.google-analytics.com/analytics.js",
-      "ga"
-    );
-    ga("create", "{{ site.google_analytics_id }}", "auto");
-    ga("send", "pageview");
-  </script>
-  {% endif %}
+  <script src="{{ '/public/js/colorscheme.js' | absolute_url }}"></script>
 </head>

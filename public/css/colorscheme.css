@@ -1,7 +1,7 @@
 /* sidebar */
 .sidebar {
-  color: rgba(255, 255, 255, 0.6) !important;
-  background-color: #202020 !important;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #202020;
 }
 
 .sidebar a {
@@ -9,25 +9,25 @@
 }
 
 .sidebar .circle-button {
-  background-color: rgba(255, 255, 255, 0.9) !important;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .sidebar .slider {
-  background-color: #ccc !important;
+  background-color: #ccc;
 }
 
 .sidebar .slider:before {
-  background-color: rgba(255, 255, 255, 0.9) !important;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 input:checked + .slider {
-  background-color: #2196f3 !important;
+  background-color: #2196f3;
 }
 
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 .sidebar-nav-item:focus {
-  background-color: rgba(255, 255, 255, 0.1) !important;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* light mode */

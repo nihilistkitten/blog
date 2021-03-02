@@ -52,19 +52,40 @@
     {% endif %} {% endif %} {% endfor %}
   </nav>
 
-  <div class="sidebar-item">
+  <div class="sidebar-item" style="font-size: 0.75em;">
     <p>
-      &copy; {{ site.time | date: '%Y' }} Riley Shahar.
+      Built with
+      <a rel="lanyon" href="https://lanyon.getpoole.com" style="color: inherit;"
+        >Lanyon</a
+      >
+      and
+      <a rel="jekyll" href="https://jekyllrb.com" style="color: inherit;"
+        >Jekyll</a
+      >. The source for this blog is available on
+      <a
+        rel="github"
+        href="https://github.com/nihilistkitten/blog"
+        style="color: inherit;"
+        >GitHub</a
+      >.
     </p>
     <p>
-      This work is licensed under a
+      &copy; {{ site.time | date: '%Y' }} Riley Shahar. This work is licensed
+      under a
       <a
         rel="license"
         href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
         style="color: inherit;"
         >Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
         License</a
-      >.
+      >. Any code samples are licensed under the
+      <a
+        rel="code-license"
+        href="https://opensource.org/licenses/MIT"
+        style="color: inherit;"
+        >MIT License</a
+      >
+      unless otherwise stated.
     </p>
   </div>
 </div>

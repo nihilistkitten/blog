@@ -13,14 +13,6 @@
   background-color: lightskyblue;
 }
 
-/* .light-theme a { */
-/*   color: #268bd2; */
-/* } */
-
-/* .light-theme a:hover { */
-/*   background-color: #ffc0cb; */
-/* } */
-
 .light-theme h1,
 .light-theme h2,
 .light-theme h3,
@@ -111,10 +103,18 @@
 }
 
 .light-theme .sidebar .circle-button {
-  background-color: rgba(255, 255, 255, 0.9) !important;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.light-theme .sidebar .circle-button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .light-theme .sidebar .slider {
+  background-color: #ccc;
+}
+
+.light-theme .sidebar .slider:hover {
   background-color: #ccc;
 }
 
@@ -257,7 +257,11 @@
 }
 
 .dark-theme .sidebar .circle-button {
-  background-color: rgba(255, 255, 255, 0.9) !important;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.dark-theme .sidebar .circle-button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .dark-theme .sidebar .slider {
@@ -266,10 +270,6 @@
 
 .dark-theme .sidebar .slider:before {
   background-color: rgba(255, 255, 255, 0.9);
-}
-
-.dark-theme input:checked + .slider {
-  background-color: #2196f3;
 }
 
 .dark-theme input:checked + .slider {

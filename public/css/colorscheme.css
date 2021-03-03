@@ -1,11 +1,6 @@
-:root {
-  --light-bg-color: #fffafa;
-  --dark-bg-color: #121212;
-}
-
 /* light mode */
 .light-theme {
-  background-color: var(--light-bg-color);
+  background-color: #fffafa;
   color: black;
 }
 
@@ -57,12 +52,10 @@
   border-bottom-color: #eee;
 }
 
-.light-theme .masthead-title {
-  color: #505050;
-}
-
 .light-theme .masthead-title a {
-  color: #505050;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to left, pink, violet, lightskyblue);
 }
 
 .light-theme .masthead-title small {
@@ -127,7 +120,7 @@
 }
 .light-theme .sidebar-toggle {
   color: #505050;
-  background-color: var(--light-bg-color);
+  background-color: transparent;
 }
 
 .light-theme .sidebar-toggle::before {
@@ -150,7 +143,7 @@
 
 /* dark mode */
 .dark-theme {
-  background-color: var(--dark-bg-color);
+  background-color: #121212;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -199,12 +192,10 @@
   border-bottom-color: #222;
 }
 
-.dark-theme .masthead-title {
-  color: #f9f3f3;
-}
-
 .dark-theme .masthead-title a {
-  color: #f9f3f3;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to left, pink, violet, lightskyblue);
 }
 
 .dark-theme .masthead-title small {
@@ -275,7 +266,7 @@
 
 /* todo: use the svg properly for the toggle */
 .dark-theme .sidebar-toggle {
-  background-color: var(--dark-bg-color);
+  background-color: transparent;
 }
 
 .dark-theme .sidebar-toggle:active,

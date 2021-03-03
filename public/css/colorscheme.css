@@ -68,7 +68,7 @@
 .light-theme .masthead-title a {
   color: transparent;
   -webkit-background-clip: text;
-  background-image: linear-gradient(to left, pink, violet, lightskyblue);
+  background-image: linear-gradient(to left, violet, lightskyblue);
 }
 
 .light-theme .masthead-title small {
@@ -213,7 +213,7 @@
 .dark-theme .masthead-title a {
   color: transparent;
   -webkit-background-clip: text;
-  background-image: linear-gradient(to left, pink, violet, lightskyblue);
+  background-image: linear-gradient(to left, violet, lightskyblue);
 }
 
 .dark-theme .masthead-title small {

@@ -111,7 +111,7 @@
 }
 
 .light-theme .sidebar .circle-button {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .light-theme .sidebar .slider {
@@ -257,7 +257,7 @@
 }
 
 .dark-theme .sidebar .circle-button {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .dark-theme .sidebar .slider {

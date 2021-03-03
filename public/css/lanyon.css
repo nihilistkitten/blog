@@ -169,7 +169,15 @@ h6 a:link {
 /* Sidebar content */
 .sidebar a {
   font-weight: normal;
+  text-decoration: none;
 }
+
+.dark-theme .sidebar a:hover,
+.light-theme .sidebar a:hover {
+  background-color: inherit;
+  text-decoration: underline;
+}
+
 .sidebar-item {
   padding: 1rem;
 }

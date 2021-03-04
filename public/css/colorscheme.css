@@ -126,10 +126,6 @@
   color: #999;
 }
 
-.light-theme .related-posts li a:hover {
-  color: #268bd2;
-}
-
 .light-theme .pagination {
   color: #ccc;
 }
@@ -239,10 +235,6 @@
 
 .dark-theme .related-posts li small {
   color: #666;
-}
-
-.dark-theme .related-posts li a:hover {
-  color: #0077cc;
 }
 
 .dark-theme .pagination {

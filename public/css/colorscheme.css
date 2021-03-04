@@ -1,3 +1,47 @@
+/* sidebar */
+.sidebar {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #202020;
+}
+
+.sidebar a {
+  color: #fff;
+}
+
+.sidebar .circle-button {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.light-theme .sidebar .circle-button:hover,
+.dark-theme .sidebar .circle-button:hover,
+.light-theme .sidebar .slider:before,
+.dark-theme .sidebar .slider:before {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.light-theme .sidebar .slider,
+.dark-theme .sidebar .slider,
+.light-theme .sidebar .slider:hover,
+.dark-theme .sidebar .slider:hover {
+  background-color: #ccc;
+}
+
+.light-theme input:checked + .slider,
+.dark-theme input:checked + .slider,
+.light-theme input:checked + .slider:hover,
+.dark-theme input:checked + .slider:hover {
+  background-color: #2196f3;
+}
+
+.light-theme .sidebar-nav-item.active,
+.dark-theme .sidebar-nav-item.active,
+.light-theme a.sidebar-nav-item:hover,
+.dark-theme a.sidebar-nav-item:hover,
+.light-theme .sidebar-nav-item:focus,
+.dark-theme .sidebar-nav-item:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 /* light mode */
 .light-theme {
   background-color: #fffafa;
@@ -93,44 +137,6 @@
   background-color: #f5f5f5;
 }
 
-.light-theme .sidebar {
-  color: rgba(255, 255, 255, 0.6);
-  background-color: #202020;
-}
-
-.light-theme .sidebar a {
-  color: #fff;
-}
-
-.light-theme .sidebar .circle-button {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-.light-theme .sidebar .circle-button:hover {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-.light-theme .sidebar .slider {
-  background-color: #ccc;
-}
-
-.light-theme .sidebar .slider:hover {
-  background-color: #ccc;
-}
-
-.light-theme .sidebar .slider:before {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-.light-theme input:checked + .slider {
-  background-color: #2196f3;
-}
-
-.light-theme .sidebar-nav-item.active,
-.light-theme a.sidebar-nav-item:hover,
-.light-theme .sidebar-nav-item:focus {
-  background-color: rgba(255, 255, 255, 0.1);
-}
 .light-theme .sidebar-toggle {
   color: #505050;
   background-color: transparent;
@@ -245,41 +251,6 @@
 /* TODO (just the one immediately below) */
 .dark-theme a.pagination-item:hover {
   background-color: #f5f5f5;
-}
-
-.dark-theme .sidebar {
-  color: rgba(255, 255, 255, 0.6);
-  background-color: #202020;
-}
-
-.dark-theme .sidebar a {
-  color: #fff;
-}
-
-.dark-theme .sidebar .circle-button {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-.dark-theme .sidebar .circle-button:hover {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-.dark-theme .sidebar .slider {
-  background-color: #ccc;
-}
-
-.dark-theme .sidebar .slider:before {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-.dark-theme input:checked + .slider {
-  background-color: #2196f3;
-}
-
-.dark-theme .sidebar-nav-item.active,
-.dark-theme a.sidebar-nav-item:hover,
-.dark-theme .sidebar-nav-item:focus {
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* todo: use the svg properly for the toggle */

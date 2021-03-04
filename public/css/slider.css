@@ -30,11 +30,6 @@ a.button {
   background-image: url({{"/public/images/mail.svg"|absolute_url}});
 }
 
-#linkedin-button {
-  margin-left: 3px;
-  background-image: url({{"/public/images/linkedin.svg"|absolute_url}});
-}
-
 /* The switch - the box around the slider */
 .switch {
   position: relative;
@@ -70,13 +65,35 @@ a.button {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-image: url({{"/public/images/sun.svg"|absolute_url}});
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-position: center;
   -webkit-transition: 0.1s;
   transition: 0.1s;
   border-radius: 50%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#darkmode-slider-actual:before {
+  background-image: url({{"/public/images/sun.svg"|absolute_url}});
+}
+
+input:checked + #darkmode-slider-actual:before {
+  background-image: url({{"/public/images/moon.svg"|absolute_url}});
+}
+
+#font-slider-actual:before {
+  content: "P";
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+input:checked + #font-slider-actual:before {
+  content: "M";
+  line-height: 26px;
+  font-size: 20px;
+  font-family: monospace;
 }
 
 input:focus + .slider {
@@ -87,5 +104,4 @@ input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
-  background-image: url({{"/public/images/moon.svg"|absolute_url}});
 }

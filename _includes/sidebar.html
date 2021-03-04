@@ -7,20 +7,25 @@
   <div class="sidebar-item">
     <label class="switch" float="left" style="vertical-align: middle;">
       <input id="darkmode-slider" type="checkbox" />
-      <a class="slider" onclick="toggleDarkMode()"></a>
+      <a
+        class="slider"
+        onclick="toggleDarkMode()"
+        id="darkmode-slider-actual"
+      ></a>
+    </label>
+    <label class="switch" float="left" style="vertical-align: middle;">
+      <input id="font-slider" type="checkbox" />
+      <a
+        class="slider"
+        onclick="togglePreferredFont()"
+        id="font-slider-actual"
+      ></a>
     </label>
     <a
       class="button circle-button"
       rel="author"
       id="mail-button"
       href="mailto:riley.shahar@gmail.com"
-      style="vertical-align: middle;"
-    ></a>
-    <a
-      class="button circle-button"
-      rel="author"
-      id="linkedin-button"
-      href="https://www.linkedin.com/in/riley-shahar"
       style="vertical-align: middle;"
     ></a>
     <a

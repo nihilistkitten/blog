@@ -6,7 +6,7 @@ tags: debate drills
 
 These are some short notes on how to fit more content into your speech. The most significant restriction on your arguments, regardless of style, is that you cannot make them after the timer beeps. Therefore, fitting more arguments, deeper analysis, and/or a more coherent narrative into the time you have is in your interest. Much of the time, faster, more efficient debaters win rounds not because they go for quantity over quality or because they spread out their opponent; they win because they’re able to fit deeper, better-explained analysis into the same speech time.
 
-I've divided these into two categories: efficiency and speed/clarity[^speed]. These are opinionated lists: there are other speed, efficiency, and clarity drills, but I chose what I think are the best. If you have questions or comments, please feel free to write them below -- other people probably have similar thoughts!
+I've divided these into two categories: efficiency and speed/clarity[^speed]. These are opinionated lists: there are other speed, efficiency, and clarity drills, but I chose what I think are the best.
 
 [^speed]: Even if you aren’t interested in speed, I encourage you to read the section, there’s a lot in it that you can apply to any format of debate at any speed.
 

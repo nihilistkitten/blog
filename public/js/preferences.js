@@ -4,8 +4,8 @@ const LIGHTMODE_CLASS = "light-theme";
 
 const FONT_COOKIE_NAME = "monospace-font";
 const MONOSPACE_FONT_FAMILY =
-    '"PT Mono", Monaco, "Lucida Console", Courier, monospace';
-const PROPORTIONAL_FONT_FAMILY = '"PT Sans", Helvetica, Arial, sans-serif';
+    'Inconsolata, Monaco, "Lucida Console", Courier, monospace';
+const PROPORTIONAL_FONT_FAMILY = "Lato, Helvetica, Arial, sans-serif";
 
 window.onload = () => {
   setColorschemeOnload();

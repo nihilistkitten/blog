@@ -39,7 +39,7 @@ body {
 }
 
 body {
-  font-family: "PT Mono", Monaco, "Lucida Console", Courier, monospace;
+  font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -106,7 +106,7 @@ h6 a:link {
  */
 
 .masthead {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: Lato, Helvetica, Arial, sans-serif;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
@@ -114,8 +114,13 @@ h6 a:link {
 }
 
 .masthead-title {
+  font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.masthead-title a {
+  font-weight: bold;
 }
 
 .masthead-title small {
@@ -160,7 +165,7 @@ h6 a:link {
   font-size: 0.875rem; /* 15px */
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: Lato, Helvetica, Arial, sans-serif;
 }
 @media (min-width: 30em) {
   .sidebar {

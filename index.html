@@ -4,10 +4,10 @@ title: Home
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for page in paginator.posts %}
   <div class="post">
-    {% include page-head.html %} {{post.excerpt}}
-    <a href="{{ post.url }}">Read more</a>
+    {% include post-header.html %} {{page.excerpt}}
+    <a href="{{ page.url }}">Read more</a>
     {% if forloop.last == false %}
     <hr />
     {% endif %}

@@ -67,6 +67,10 @@
   color: #313131;
 }
 
+.light-theme hr {
+  border-top: 1px solid #eee;
+}
+
 .light-theme strong {
   color: #303030;
 }
@@ -179,6 +183,10 @@
 .dark-theme h5,
 .dark-theme h6 {
   color: #e4e4e4;
+}
+
+.dark-theme hr {
+  border-top: 1px solid #222;
 }
 
 .dark-theme strong {

@@ -5,6 +5,7 @@
 </h1>
 
 <span class="post-date"
-  >{{ page.date | date_to_string }} &#183; {% for tag in page.tags %} {{ tag
-  }}{% if forloop.last == false %}, {% endif %} {% endfor %}
+  >{{ page.date | date_to_string }} {% if page.tags.size > 0 %} &#183; {% endif
+  %} {% for tag in page.tags %} {{ tag }}{% if forloop.last == false %}, {%
+  endif %} {% endfor %}
 </span>

@@ -2,6 +2,7 @@
 .sidebar {
   color: rgba(255, 255, 255, 0.6);
   background-color: #202020;
+  font-weight: initial;
 }
 
 .sidebar a {
@@ -46,7 +47,7 @@
 .light-theme {
   background-color: #fffafa;
   color: black;
-  font-weight: 600; /* you need a thicker font */
+  font-weight: 400; /* you need a thicker font */
 }
 
 .light-theme a {
